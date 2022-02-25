@@ -12,5 +12,6 @@ gcc Client.c -o Client
 
 --------------------------------
 
-<server_name> stands for your own IP Address, in order to find it, type ifconfig -a and copy the IPv4 address
+<server_name> stands for your own IP Address, in order to find it, type ifconfig -a and copy the IPv4 address 
+<br>
 In Client.c, on line 147, replace the ip with your own broadcast ip, this way, the client will be able to send messages to the other clients connected to the server 
